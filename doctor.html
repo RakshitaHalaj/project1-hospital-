@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+.header{
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(doctor2.webp);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+            padding-top: 20px;
+            text-align: center;
+            
+        }
+
+.main{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 70px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 70px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+features{
+        padding: 50px 0;
+      }
+      h1{
+        text-align: center;
+        padding-bottom: 30px;
+        color: hsl(33, 97%, 23%);
+      }
+      h3{
+         color: #420966;
+         text-align: center;
+         
+      }
+      h2{
+        color:#800606;
+        padding-bottom: 30px;
+        text-align: center;
+      }
+      .feature-img img{
+        width: 100%;
+        
+      }
+      
+      .price{
+        color: #938415;
+        font-weight: 600;
+       
+      }
+      .feature-details{
+        padding: 20px;
+        text-align: justify;
+      }
+    .feature-details h4{
+        font-weight: 600;
+        margin-top: 0px;
+        color: #f20a0a;
+    }
+    .feature-details fa{
+        margin-right: 1px;
+        color: orangered;
+    }
+    .feature-details p{
+        color: rgb(101, 9, 175);
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+   .featured-img { 
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    .featured-box{
+        box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    }
+    .feature-details small{
+			display: inline-block;
+		    padding: 8px 20px;
+		    margin: 15px;
+		    font-weight: bold;
+		    border-radius: 6px;
+		    border: 1px solid #999;
+		    cursor: pointer;
+		}
+		.feature-details small:hover{
+			    background: var(--gra);
+			    color: white;
+			    border-color: cyan;
+		}
+        .banner{
+            
+            height: 40%;
+            width: 100%;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            position: absolute;
+            background-image:url("https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854031.jpg");
+            
+            background-size: cover;
+             padding-top: 10%;
+    }
+    .banner-highlights p{
+    
+        padding-right: 60px;
+        color: rgb(7, 3, 19);
+    }
+    
+    .banner-highlights h1{
+        color: #f20a0a;
+        text-align: center;
+        
+    }
+    .banner-highlights p2{
+        color: #0c48de;
+        
+        padding-right: 40px;
+        font-size: 300;
+
+    }
+
+   
+    .booking-btn{
+         width: 120px;
+         padding: 8px 0;
+         outline: none !important;
+         border: 2px solid #fff;
+         border-radius: 50px;
+         background: transparent;
+         color:white;
+         margin-top: 20px;
+    }
+    .footer{
+        
+        border-top: 1px solid rgba(247, 243, 243, 0.1);
+        
+        padding: 430px 10px 50px;
+        background-image: linear-gradient(#0d579c,#9610fb);
+        color: white;
+    }
+    .footer h4{
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        
+    }
+    .footer p{
+        font-size: 16px;
+        text-align: justify;
+        padding-right: 35px;
+        
+    }
+    .footer .row .fa{
+        padding-right: 6px;
+        font-size: 15px;
+    }
+    .footer hr{
+        margin-top: 10px;
+        background: #efefef;
+    }
+    .fa-heart{
+        margin: 0 5px;
+        color:#f44336;
+
+    }
+    .footer  .copyright{
+        text-align: center;
+
+    }
+    .col-md-3{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <section class="header">
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">MiSsIoN </h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    
+                    <li><a href="https://drive.google.com/file/d/1t0ebuIVQowho4q8EIeNCQJ6kGFA3-eSM/view?usp=drive_link">ABOUT US</a></li>
+                    <li><a href="https://drive.google.com/file/d/1-PcqOYSnhogPu18WejUN7OBpx5x-XAny/view?usp=drive_link">SERVICES</a></li>
+                    <li><a href="https://drive.google.com/file/d/1R1MayDi1z6sllug4RvWFqILfJ7oU8qbU/view?usp=drive_link">DOCTORS</a></li>
+                    <li><a href="https://drive.google.com/file/d/1XHfLXD4vDV1NYSvJ1rrPJvxbCw7Ur_r9/view?usp=drive_link">APPOINTMENT</a></li>
+                    <li><a href="https://drive.google.com/file/d/1XpZp7BtiJThayJll4mlNnfm1rOLPgYE3/view?usp=drive_link">INSURANCE</a></li>
+                    
+                    
+                </ul>
+            </div>
+             
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Enter Department Name">
+                <a href="https://drive.google.com/file/d/1H1tCCQUgnbL4kmKqZiSG9I7lJ8TBKNKk/view?usp=drive_link"> <button class="btn">Search</button></a>
+            </div>
+            
+        </div> 
+        <div class="content">
+            <h1>Book To Meet Doctor <br><span>Your Health Is First Periority</span> <br>India's best online appointment scheduling platform
+                </h1>
+            <p class="par">A church is a hospital for sinners, not a museum for saints. · A hospital bed is a parked taxi with the meter running.</p>
+                <button class="cn"><a href="https://drive.google.com/file/d/1XHfLXD4vDV1NYSvJ1rrPJvxbCw7Ur_r9/view?usp=drive_link">JOIN US</a></button>
+                <button class="cn"><a href="https://drive.google.com/file/d/1GnNFScv-5EEzGrrWQBHgemJJgyJO_wZi/view?usp=drive_link">login</a></button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </section>
+    <section class="features">
+        <h1>Key Features </h1>
+        <h3>7 features that are unique to MiSsIoN and essential to the hospital’s performance.</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="featured-box">
+                        <div class="featured-img">
+                            <img src="https://c8.alamy.com/comp/2PFAWMB/predictive-analytics-outline-icon-simple-element-from-healthcare-innovations-collection-creative-predictive-analytics-line-icon-for-web-design-2PFAWMB.jpg" width="200px" height="200px">
+                            <div class="price">
+                                
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="feature-details">
+                                <br></br>
+                                <h4>Predictive analysis</h4>
+                                <p>
+                                    Predictive analytics is a method of providing improved patient careRobots collect the data and predict (sometimes before doctors) what will be required for a patient. However, it creates concern about robots’ presence,</p>
+                                </p></br>
+                                <h3>The advantages of predictive analysis are:</h3></br>
+
+                                  <p>1.Improved patient care</br>
+                                    2.Faster diagnosis
+                                </p>                                
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="featured-box">
+                        <div class="featured-img">
+                            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfjfoT4oiPZsZLK9_FZO_b6AG7Fbud30iE6A&usqp=CAU" width="200px" height="250px"></br>
+                            
+                            <div class="price">
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                            </div>
+                            <div class="feature-details">
+                                <h4> Bioprinting</h4>
+                                <p>3D printing is not a new method for the healthcare industry. But in the future, it will be used extensively in more areas rather than surgery.</p></br>
+                                <h3>The advantages of bioprinting are:</h3></br>
+                               <p>1.It makes complicated surgeries easier to perform</br>
+                          2.Takes very little time for production </p></br>
+                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+            </div>          
+                    </div>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15275.382356439268!2d74.62560140609202!3d16.834014614936333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc123b2742f6fed%3A0xd1aab08a018c176a!2sMission%20Hospital%20Quarters!5e0!3m2!1sen!2sin!4v1685092573658!5m2!1sen!2sin" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </section>
+                <section class="banner" >
+                    
+                    <div class="banner-highlights">
+                        
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">  
+                                    <h1>Mission and Vision and Values</h1></br>
+                                    <p>To provide Hope, Care and Cure. To provide compassionate, accessible,</br> high quality, cost effective healthcare to one all. To serve with a patient's </br>first motto and to work towards a patient- centered care</p></br>
+                                      <p2> Focus on Patient and Patient Care.</br>
+                                        To provide extraordinary customer satisfaction.</br>
+                                        Treating all people with respect and dignity.</br>
+                                        Acting always with utmost integrity.</br>
+                                        Creating value for the society we live in.</br>
+                                       </p2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section> 
+                <section class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md"> 
+                                <p>“ Wherever the art of medicine is loved, there is also a love of humanity.”<br></br>Health is welth </p>
+                                
+                            </div>
+                            <div class="col-md-3"> 
+                                <h4>Feature</h4>
+                                <p>Health Insurance</p>
+                                <p>Patint Review</p>
+                                <p>Appointment Police</p>
+                            </div>
+                            <div class="col-md-3"> 
+                                <h4>Quick Contact</h4>
+                                <p><i class="fa fa-phone-square"></i> +1 7406723463</p>
+                                <p><i class="fa fa-envelope"></i>@massionhospital.com</p>
+                                <p><i class="fa fa-home"></i>Sangali Maharastra</p>
+                            </div>
+                            <div class="col-md-3"> 
+                                <h4>Follow us on</h4>
+                                <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                                <p><i class="fa fa-youtube-play"></i> Youtube</p>
+                                <p><i class="fa fa-twitter"></i>Twitter</p>
+                            </div>                
+                        </div><hr>
+                        <p class="copyright">Made with<i class="fa fa-heart"></i>By indians</p>        
+                    </div>
+                 </section>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
